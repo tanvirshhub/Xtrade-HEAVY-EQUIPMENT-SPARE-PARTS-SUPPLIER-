@@ -1,11 +1,43 @@
-*{
-    font-family: "Poppins", sans-serif;
-    font-weight: regular;
-    font-size: 16px;
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: regular;
+  font-size: 16px;
 }
-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.hero-section {
+  position: relative;
+}
+
+.slick-slide {
+  background-size: cover;
+  background-position: center;
+  height: 500px; 
+  color: #fff;
+}
+
+.slide-content {
+  padding: 20px;
+}
+
+.hero-left,
+.hero-right {
+  padding: 20px;
+}
+
+.hero-left h1 {
+  font-size: 36px;
+}
+
+.hero-left p {
+  font-size: 18px;
+}
+
+.hero-right img {
+  max-width: 100%;
+  height: auto;
 }
