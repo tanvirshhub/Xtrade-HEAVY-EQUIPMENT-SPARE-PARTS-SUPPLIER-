@@ -41,15 +41,6 @@ body {
     --primary: #020e28;
     --primary-btn:#007dff;
     --primary-g-btn:linear-gradient(90deg, #fdbe00, #007dff);
-
-     /* Gaps */
-    
-     /* Paddings */
-
-     /* Border radiuses */
-
-         /* Effects */
-
  }
  .yollow-text{
     color: var(--p-secondary);
@@ -59,4 +50,7 @@ body {
   }
   .p-light-text{
     color: var(--p-light);
+  }
+  .blue-text{
+    color: var(--primary-btn);
   }

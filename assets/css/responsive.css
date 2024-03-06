@@ -1,0 +1,112 @@
+@media (max-width: 575.98px) {
+  /* Styles for mobile devices go here */
+  .topbar {
+    display: none;
+  }
+  .hero-left h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .hero-left h4 {
+    font-size: 18px;
+  }
+
+  /* hero section start */
+
+  .slick-dots li button::before {
+    font-size: 25px;
+    top: 0;
+    left: 0;
+  }
+
+  /* we are avaliable sections Start */
+  .offer-title {
+    justify-content: center;
+  }
+  .single-offer {
+    text-align: center;
+  }
+  .offer-title img {
+    height: 60px;
+    width: 60px;
+  }
+  .offer-title h5 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  /* WHY ANNCAR sections Start */
+
+  .left-anncar img {
+    height: 265px;
+  }
+  .left-anncar {
+    margin-bottom: 20px;
+  }
+  .right-anncar-content {
+    text-align: center;
+  }
+  .section-inner-title {
+    padding-left: 60px;
+    border: none;
+  }
+
+  /* products sections start */
+
+  .single-products h5 {
+    font-size: 25px;
+  }
+  .single-products {
+    padding: 20px;
+  }
+
+  /* top brands sections start */
+  .right-brands-content {
+    padding: 20px;
+  }
+  .right-brands-content h2 {
+    font-size: 30px;
+  }
+
+  .right-brands-content h4 {
+    font-size: 16px;
+  }
+  .secondary-left-brands {
+    width: 65%;
+    left: 0px;
+  }
+
+  /* We have the part you need sections start */
+
+  .request-part {
+    height: 350px;
+  }
+  .request-part-left {
+    top: 65px;
+    left: 0px;
+  }
+  .request-part-right {
+    top: 50px;
+    right: 0;
+    text-align: center;
+  }
+
+  /* footer start */
+
+  .single-footer-caption {
+    text-align: center;
+  }
+
+  .socila-list ul {
+    display: flex;
+    justify-content: center;
+  }
+  .inner-contact {
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) {
+  /* Styles for medium devices go here */
+
+
+}
