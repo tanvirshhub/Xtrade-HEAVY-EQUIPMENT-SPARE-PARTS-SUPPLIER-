@@ -328,6 +328,9 @@
 	text-decoration: none;
 	color: var(--white);
 }
+.request-title h6 a:hover{
+  background: var(--primary-g-btn);
+}
 
 /* We have the part you need sections start */
 
@@ -385,3 +388,18 @@ margin-bottom: 0;
 }
 
 /* footer end */
+
+/* copyrigh section start */
+
+.Copyright {
+	background: #000818;
+	color: var;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+.Copyright p{
+  margin-bottom: 0;
+}
+
+/* copyrigh section end */
