@@ -1,14 +1,70 @@
-* {
-  font-family: "Poppins", sans-serif;
-  font-weight: regular;
-  font-size: 16px;
+/* HEADER SECTION START */
+
+/* topbar start */
+
+.topbar {
+  background: var(--primary);
+  color: var(--white);
+  padding: 10px;
 }
-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
+.top-contact {
+  margin-bottom: 0;
+  gap: 30px;
 }
+.top-contact li {
+  list-style: none;
+  color: var(--white);
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.top-contact li a {
+  text-decoration: none;
+  color: var(--white);
+}
+.top-contact .svg-inline--fa {
+  color: var(--primary-btn);
+}
+
+/* topbar end */
+
+/* navbar start */
+
+.navbar-nav {
+  padding-right: 46px;
+  gap: 20px;
+}
+.nav-link {
+  color: var(--primary);
+  font-weight: bold;
+  font-family: popins;
+}
+.nav-link:hover,
+.nav-link:active {
+  color: var(--p-secondary);
+}
+.btn.nav-submit {
+  padding: 10px 15px;
+  background: var(--primary-g-btn);
+  border-radius: 50px;
+  color: var(--white);
+  gap: 3px;
+  font-weight: bold;
+}
+.btn.nav-submit img {
+  width: 30px;
+}
+
+.btn.nav-submit:hover {
+  background: var(--p-secondary);
+  color: var(--white);
+}
+
+/* navbar end */
+
+/* HEADER SECTION END */
+
+/* hero section start */
 .hero-section {
   position: relative;
 }
@@ -16,7 +72,7 @@ img {
 .slick-slide {
   background-size: cover;
   background-position: center;
-  height: 500px; 
+  height: 500px;
   color: #fff;
 }
 
@@ -41,3 +97,117 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* hero section end */
+
+/* we are avaliable sections Start */
+.our-offer {
+  padding: 45px 0px;
+}
+.our-offer .col-md-4 {
+  padding: 0px;
+}
+.single-offer {
+  box-shadow: 0px 0px 5px -2px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  margin: 0px;
+}
+.offer-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.offer-title img {
+  height: 90px;
+  width: 90px;
+}
+.offer-title h5 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* we are avaliable sections end */
+
+/* WHY ANNCAR sections Start */
+
+.why-anncar {
+  padding: 45px;
+  display: flex;
+  align-items: center;
+}
+.left-anncar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#right-anncar {
+  display: flex;
+  align-items: center;
+}
+.section-inner-title {
+  font-weight: bold;
+  border-bottom: 2px solid var(--primary-btn);
+  width: 100px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+/* WHY ANNCAR sections end */
+
+/* products sections start */
+.products {
+  padding: 45px 0px;
+}
+.single-products {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 20px 0px;
+}
+.single-products img {
+  width: 40px;
+}
+.parts {
+  width: 90px !important;
+  margin-top: 20px;
+
+}
+.single-products h5 {
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--white);
+  position: relative;
+  display: flex;
+  margin-bottom: 10px;
+}
+.single-products h5::after {
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 2px;
+  background: var(--primary-btn);
+  bottom: -2px;
+  left: 0;
+}
+.single-products p {
+  color: var(--white);
+}
+
+/* products sections end */
+
+/* top brands sections start */
+
+.top-brands {
+  padding: 45px 0px;
+}
+#right-points {
+  display: flex;
+  align-items: center;
+}
+.right-brands-content h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* top brands sections end */
