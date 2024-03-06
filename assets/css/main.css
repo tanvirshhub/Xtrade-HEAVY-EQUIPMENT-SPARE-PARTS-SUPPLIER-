@@ -304,12 +304,12 @@
 .request-part-left {
   position: absolute;
   top: 65px;
-  left: 80px;
+  left: 70px;
 }
 .request-part-right {
   position: absolute;
   top: 88px;
-  right: 150px;
+  right: 88px;
   background: var(--secondary);
   padding: 30px;
   color: var(--white);

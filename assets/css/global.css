@@ -54,3 +54,8 @@ body {
   .blue-text{
     color: var(--primary-btn);
   }
+  span{
+    margin-left: 5px;
+    margin-right: 5px;
+
+  }
